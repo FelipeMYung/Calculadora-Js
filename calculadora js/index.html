@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+    <script src="script.js"></script>
+    <title>calculadora</title>
+  </head>
+  <body>
+    <h1>Calculadora produzida por felipe, erick, roberto </h1>
+    <button><source src="audioo.mp3"></button>
+    <div class="calculadora">
+      <h1>Calculadora</h1>
+        <p id="resultado">0</p>
+      <table>
+        <tr>
+          <td><button value="C" class="botao" onclick="pegavalor(this)">C</button></td>
+          <td><button class="botao" onclick="apagar()"><</button></td>
+          <td><button value="/" class="botao" onclick="pegavalor(this)">÷</button></td>
+          <td><button value="*" class="botao" onclick="pegavalor(this)">x</button></td>
+        </tr>
+        <tr>
+          <td><button value="9" class="botao" onclick="pegavalor(this)" >9</button></td>
+          <td><button value="8" class="botao" onclick="pegavalor(this)">8</button></td>
+          <td><button value="7" class="botao" onclick="pegavalor(this)">7</button></td>
+          <td><button value="-" class="botao" onclick="pegavalor(this)">-</button></td>
+        </tr>
+        <tr>
+          <td><button value="6" class="botao" onclick="pegavalor(this)">6</button></td>
+          <td><button value="5" class="botao" onclick="pegavalor(this)">5</button></td>
+          <td><button value="4"class="botao" onclick="pegavalor(this)">4</button></td>
+          <td><button value="+" onclick="pegavalor(this)" class="botao">+</button></td>
+        </tr>
+        <tr>
+          <td><button value="3" class="botao" onclick="pegavalor(this)">3</button></td>
+          <td><button value="2" class="botao" onclick="pegavalor(this)">2</button></td>
+          <td><button value="1" class="botao" onclick="pegavalor(this)">1</button></td>
+          <td rowspan="2"><button  class="botao" onclick="calcular()" style="height:110px;">=</button></td>
+        </tr>
+        <tr>
+          <td colspan="2"><button  value="0" class="botao" onclick="pegavalor(this)" style="width:110px;">0</button></td>
+          <td><button value="." class="botao" onclick="pegavalor(this)">.</button></td>
+        </tr> 
+      </table>
+    </div>
+  </body>
+</html>
